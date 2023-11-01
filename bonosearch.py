@@ -31,4 +31,5 @@ if __name__ == "__main__":
     visited_links = set()
     search_queries = ['pro bono advice for charities', 'managing pro bono charity cleverly']
     for search_query in search_queries:
+        st.header(search_query.upper(), divider = "rainbow")
         search_and_extract(search_query)
